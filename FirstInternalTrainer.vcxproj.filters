@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{c5b980ff-0570-4605-98f5-0faa91698953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="dllEnty">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{88affa52-feca-4f53-9edc-86a826c950bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{d868ae58-6738-4aa0-8e36-c50049bc4412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3440814b-b653-4286-b7d3-37b38b7a3d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\WindowUtility">
+      <UniqueIdentifier>{015acd61-142e-41bc-92cb-2e2cc174a66c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{c2405235-0f4a-4246-8297-eb8e1b375848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityEntry">
+      <UniqueIdentifier>{fe9ab3d4-a81f-4a1c-a6d5-f8dc28a067ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp">
+      <UniqueIdentifier>{a1b048a7-3862-4f81-8ca8-6029d8d2ac43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{2831d890-d0c3-4f10-bff2-932544791c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MvpMatrix">
+      <UniqueIdentifier>{b3353fe7-712a-4090-94a5-a4c9eb3c3574}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEnt.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtility.h">
+      <Filter>Utility\WindowUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEntry.h">
+      <Filter>EntityEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_DATA.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MvpMatrix.h">
+      <Filter>MvpMatrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>dllEnty</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEnt.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtility.cpp">
+      <Filter>Utility\WindowUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEntry.cpp">
+      <Filter>EntityEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_DATA.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="MvpMatrix.cpp">
+      <Filter>MvpMatrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
